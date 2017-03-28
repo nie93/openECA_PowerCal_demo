@@ -11,7 +11,7 @@ In this demo, we are going to extract the voltage and current measurement
 data of positive sequence, including the magnitudes and the angles 
 information and calculate the active power and reactive power using C#.
 
-Run “openECA Client” from the Start Menu, then it will automatically 
+Run **openECA Client** from the Start Menu, then it will automatically 
 open a UI host terminal at the background and your default web browser 
 as well (make sure your browser is compatible with HTML5, Chrome is 
 fine!) and as shown below. The UI host terminal monitors the connection 
