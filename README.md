@@ -91,8 +91,8 @@ double voltAngV = inputData.VoltAng;
 double currMagV = inputData.CurrMag;
 double currAngV = inputData.CurrAng;
 
-double activePowerV = 1.5 * voltMagV * currMagV * Math.Cos( ( voltAngV - currAngV ) * Math.PI/180);
-double reactivePowerV = 1.5 * voltMagV * currMagV * Math.Sin( ( voltAngV - currAngV ) * Math.PI/180);
+double activePowerV = 3 * voltMagV * currMagV * Math.Cos( ( voltAngV - currAngV ) * Math.PI/180);
+double reactivePowerV = 3 * voltMagV * currMagV * Math.Sin( ( voltAngV - currAngV ) * Math.PI/180);
 
 _message += String.Format("Active Power: {0}\n", activePowerV);
 _message += String.Format("Reactive Power: {0}\n", reactivePowerV);
